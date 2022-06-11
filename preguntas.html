@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<link rel="shortcut icon" href="img/icono.ico">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Preguntas</title>
+<link rel="stylesheet" href="css/style.css"/>
+<script src="js/jquery-3.5.1.js"></script>
+
+</head>
+
+<body>
+    <script>
+        document.write("<header><h1>Help Desk</h1><hr /><br /></header>");
+        
+       </script>
+<!--<div style="margin-left:25%;padding:1px 16px;height:1000px;">-->
+    <p>Existen muchas razones por las que tu PC puede dejar de funcionar repentinamente mientras la estás utilizando. A continuación, te presentamos
+        una lista de las causas más comunes por las que una computadora se apaga sola.</p>
+        <article class="all-browsers">
+    <div id="container-main">
+        <a href="helpdesk.html">  <li>Regresar a la pagina anterior</li></a>
+        <h1>Problemas Frecuentes</h1>
+        <div class="fotopersona">
+            <img src="css/problemaportada.jpg" alt=""/>
+                    </div>
+
+        <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">El equipo está lento?<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="css/problema1.jpg" alt=""/>
+                <p>Puede originarse porque el disco duro está lleno o existen muchos programas funcionando al mismo tiempo.
+                En esos casos, cuando el disco duro se llena, el sistema operativo pierde velocidad para escribir archivos, al buscar un espacio libre donde ubicarlos. Es decir, eso se traduce en un funcionamiento más lento del sistema operativo.
+                Otro inconveniente puede ser por un gran número de programas en funcionamiento. En este caso, la solución es cerrar todo lo que no se está usando y desactivar cualquier programa en desuso, excepto aquellos que reconozcamos como antivirus o los que preferís que arranquen, al encender la máquina. 
+            ¿La solución? Eliminar los archivos innecesarios o que ya no se usan. O moverlos a otro disco duro con más espacio libre</p>
+            </div>  
+        </div>
+        </article>
+
+         <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">El equipo se reinicia una y otra vez<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="css/problema2.jpg" alt=""/>
+                <p>El usuario debe revisar si el dispositivo está ejecutando algunas actualizaciones.n ese caso, la solución es simplemente tener paciencia. De lo contrario, es posible que necesite una limpieza interna.</p>
+            </div>  
+        </div>
+        </article>
+
+
+         <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">La computadora no enciende<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="css/problema3.jpg" alt=""/>
+                <p>Este problema común puede obedecerse a muchos motivos. En principio, el usuario debe asegurarse de que hay corriente eléctrica y que el equipo está enchufado en el lugar adecuado. Incluso, es recomendable chequear y volver a pulsar el botón de encendido con la fuerza adecuada y durante el tiempo necesario. Si en este último caso el equipo no responde, entonces deberá llevarlo al servicio técnico.</p>
+            </div>  
+        </div>
+        </article>
+
+<article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">El Wi-Fi se desconecta muy seguido<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="css/problema4.jpg" alt=""/>
+                <p>Este inconveniente puede ser por diversos factores: el router, la computadora, o el servidor de internet. En primer lugar, el usuario debe asegurarse estar ubicado a una distancia adecuada para una recepción óptima de la señal o que el adaptador inalámbrico cuenta con los drivers actualizados.</p>
+            </div>  
+        </div>
+        </article>
+
+        <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">Algunos archivos que llegan al mail no se pueden abrir<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="css/problema5.png" alt=""/>
+                <p>Posiblemente, el usuario no tiene instalado el programa adecuado para ejecutar esos archivos. La mejor opción es buscar en Google el nombre o formato del archivo que, generalmente, aparece al final del nombre como .RAR, .pdf, .doc y descargarlo en tu computadora.</p>
+            </div>  
+        </div>
+        </article>
+        <a href="helpdesk.html">  <li>Regresar a la pagina anterior</li></a>
+
+  
+</div>
+
+</body>
+<script >
+    $(".accordion-titulo").click(function(){
+            
+        var contenido=$(this).next(".accordion-content");
+                 
+        if(contenido.css("display")=="none"){ 	
+           contenido.slideDown(250);			
+           $(this).addClass("open");
+        }
+        else{ 		
+           contenido.slideUp(250);
+           $(this).removeClass("open");	
+       }
+                                 
+     });
+    </script>
+</html>
