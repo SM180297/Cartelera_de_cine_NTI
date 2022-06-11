@@ -7,6 +7,7 @@ body{
 	font-family: 'open sans';
 	font-size: 16px;
 }
+
 header{
 	width: 100%;
 	height: 650px;
@@ -22,15 +23,16 @@ header{
 }
 header .textos{
 	margin-top: 152px;
-	
- font-family: arial; color: #FE0000;
+	-webkit-text-stroke: 1px #EDDDC3;
+ font-family: arial; color: #1836e0;
+ font-size: 30px;
 
  
 }
 header .titulo{
 	font-size: 85px;
-	-webkit-text-stroke: 2px #ebeff3;
- font-family: arial; color: #003567;
+	-webkit-text-stroke: 3px #ebeff3;
+ font-family: arial; color: #e01818;
 }
 header .subtitulo{
 	font-size: 42px;
@@ -202,7 +204,28 @@ color: rgb(29, 6, 6)
 	background: #fff;
 	margin:auto;
 }
+.fotopelis2 img{
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-right: 10px;
+	border-radius: 30%;
+}
+.boton{
+	display: inline-block;
+  border-radius: 4px;
+  background-color: #34495e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 
+}
 
 .fotopelis img{
 	width: 200px;

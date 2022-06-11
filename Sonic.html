@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<link rel="shortcut icon" href="img/icono.ico">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Sonic</title>
+<link rel="stylesheet" href="css/style.css"/>
+<script src="js/jquery-3.5.1.js"></script>
+
+</head>
+
+<body>
+   
+  
+        <article class="all-browsers">
+    <div id="container-main">
+        <a href="WERR.html">  <li>Regresar a la pagina anterior</li></a>
+        <h1>SOLO PARA TÍ LO MEJOR</h1>
+        <div class="fotopersona2">
+            <img src="img/Sonic.jpg" alt="" width="200 px" height="275 px"/>
+                    </div>
+
+        <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">Sonic 2: La película<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="img/Sonic.jpg" alt=""/>
+                <p>Duracion: 122 minutos AVENTURA</p>
+                <p>Genero: AVENTURA</p>
+                <p>Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe. La prueba de fuego llega con el retorno del malvado Robotnik, en esta ocasión con un nuevo compinche, Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones. Sonic forma equipo con su propio compañero de fatigas, Tails, y juntos se lanzan a una aventura que les llevará por todo el mundo en busca de la preciada piedra para evitar que caiga en manos equivocadas.</p>
+            </div>  
+        </div>
+        </article>
+
+        
+        <a href="WERR.html">  <li>Regresar a la pagina anterior</li></a>
+
+  
+</div>
+
+</body>
+<script >
+    $(".accordion-titulo").click(function(){
+            
+        var contenido=$(this).next(".accordion-content");
+                 
+        if(contenido.css("display")=="none"){ 	
+           contenido.slideDown(250);			
+           $(this).addClass("open");
+        }
+        else{ 		
+           contenido.slideUp(250);
+           $(this).removeClass("open");	
+       }
+                                 
+     });
+    </script>
+</html>
