@@ -109,6 +109,7 @@ header .subtitulo{
 	border-color: #fff transparent transparent transparent;
 }
 .acerca-de{
+	background-color: #006BAB;
 
 }
 .contenedor{
@@ -214,6 +215,7 @@ color: rgb(29, 6, 6)
 	width: 25%;
 	float:left;
 }
+
 
 
 .ir-arriba
