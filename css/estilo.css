@@ -22,10 +22,15 @@ header{
 }
 header .textos{
 	margin-top: 152px;
+	
+ font-family: arial; color: #FE0000;
 
+ 
 }
 header .titulo{
 	font-size: 85px;
+	-webkit-text-stroke: 2px #ebeff3;
+ font-family: arial; color: #003567;
 }
 header .subtitulo{
 	font-size: 42px;
@@ -198,13 +203,18 @@ color: rgb(29, 6, 6)
 }
 
 
-.fotopersona img{
+.fotopelis img{
 	width: 200px;
 	height: 200px;
-	float: left;
-	margin-right: 20px;
-	border-radius: 20%;
+	float:left;
+	margin-right: 10px;
+	border-radius: 30%;
 }
+.fotopelis {
+	width: 25%;
+	float:left;
+}
+
 
 .ir-arriba
 {
