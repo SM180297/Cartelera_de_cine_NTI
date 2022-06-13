@@ -263,13 +263,13 @@ color: rgb(29, 6, 6)
 	color: #00a1ff;
 }
 .en{
-	font-size: 20px;
-	-webkit-text-stroke: 0.5px #e01818;
- font-family: arial; color: #e01818;
+	font-size: 15px;
+	-webkit-text-stroke: 0.2px #000000;
+ font-family: arial; color: #ffffff;
 }
-.es{font-size: 20px;
-	-webkit-text-stroke: 0.5px #e01818;
- font-family: arial; color: #e01818;
+.es{font-size: 15px;
+	-webkit-text-stroke: 0.2px #000000;
+ font-family: arial; color: #ffffff;
 }
 /*
 .check{
