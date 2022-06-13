@@ -1,15 +1,24 @@
 var check=document.querySelector(".check");
+var check2=document.querySelector(".check2");
+
 check.addEventListener('click',idioma);
-//var chek=document.getElementById(".check").addEventListener("click",idioma);
+check2.addEventListener('click',idioma2);
+
 function idioma(){
-    //console.log(check.checked);
    let id=check.checked;
   if(check==true){
-    location.href="ingles/index.html";
-    //window.location.replace('C:\Users\Admin\Desktop\idiom\Cartelera_de_cine_NTI\ingles\index.html');
+    
    }
    else{
-    location.href="../index.html";
-    //window.location.replace('C:\Users\Admin\Desktop\idiom\Cartelera_de_cine_NTI\ingles\index.html');
+    window.location.replace('ingles/index.html');
+}
+}
+function idioma2(){
+   let id=check2.checked;
+  if(check2==true){
+    
    }
+   else{
+    window.location.replace('../index.html');
+}
 }

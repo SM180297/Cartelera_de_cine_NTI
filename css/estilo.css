@@ -254,12 +254,24 @@ color: rgb(29, 6, 6)
 	right:20px;
 
 }
+
+
 .esp{
 	color: #333;
 }
 .ingles{
 	color: #00a1ff;
 }
+.en{
+	font-size: 20px;
+	-webkit-text-stroke: 0.5px #e01818;
+ font-family: arial; color: #e01818;
+}
+.es{font-size: 20px;
+	-webkit-text-stroke: 0.5px #e01818;
+ font-family: arial; color: #e01818;
+}
+/*
 .check{
 	position: relative;
 	width:50px;
@@ -291,3 +303,4 @@ color: rgb(29, 6, 6)
 .check:checked:before{
 background: #00a1ff;
 }
+*/

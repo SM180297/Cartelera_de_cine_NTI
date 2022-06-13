@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<link rel="shortcut icon" href="../img/icono.ico">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Lightyear</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<script src="../js/jquery-3.5.1.js"></script>
+
+</head>
+
+<body>
+   
+  
+        <article class="all-browsers">
+    <div id="container-main">
+        <a href="index.html">  <li>Return to the previous page</li></a>
+        <h1>ONLY FOR YOU THE BEST</h1>
+        <div class="fotopersona2">
+            <img src="../img/Lightyear.jpg" alt="" width="200 px" height="275 px"/>
+                    </div>
+
+        <article class="browser">
+        <div class="accordion-container">
+            <a href="#" class="accordion-titulo">Lightyear<span class="toggle-icon"></span></a>
+            <div class="accordion-content">
+                <img src="../img/Lightyear.jpg" alt=""/>
+                <p>Duration: 105 minutes ANIMATION</p>
+                <p>Genre: ADVENTURE</p>
+                <p>Origin story of Buzz Lightyear, the hero who inspired the toy, and who introduces us to the legendary Space Ranger who would end up with generations of fans.</p> </div>  
+        </div>
+        </article>
+
+        
+        <a href="index.html">  <li>Return to the previous page</li></a>
+
+  
+</div>
+
+</body>
+<script >
+    $(".accordion-titulo").click(function(){
+            
+        var contenido=$(this).next(".accordion-content");
+                 
+        if(contenido.css("display")=="none"){ 	
+           contenido.slideDown(250);			
+           $(this).addClass("open");
+        }
+        else{ 		
+           contenido.slideUp(250);
+           $(this).removeClass("open");	
+       }
+                                 
+     });
+    </script>
+</html>
