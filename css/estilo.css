@@ -364,5 +364,12 @@ background: #00a1ff;
 			margin-right: 10px;
 			border-radius: 30%;
 		}
+	.sobre-nosotros{
+			text-align: center;
+			font-size: 35px;
+			margin-bottom: 10px;
+			font-weight: 600;
+		}
+		
 		
 }
