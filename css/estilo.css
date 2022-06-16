@@ -3,14 +3,18 @@
 	padding:0;
 	box-sizing: border-box;
 }
+html {
+	font-size: 16px;
+}
+
 body{
 	font-family: 'open sans';
-	font-size: 16px;
+	font-size: 1rem;
 }
 
 header{
 	width: 100%;
-	height: 650px;
+	height: 40.625rem;
 	background-image:url(fondo1.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -22,22 +26,64 @@ header{
 
 }
 header .textos{
-	margin-top: 152px;
-	-webkit-text-stroke: 1px #EDDDC3;
+	margin-top: 5.625rem;
+	-webkit-text-stroke: 0.0625rem #EDDDC3;
  font-family: arial; color: #1836e0;
- font-size: 30px;
+ font-size: 1.875rem;
 
  
 }
 header .titulo{
-	font-size: 85px;
-	-webkit-text-stroke: 3px #ebeff3;
+	font-size: 5.3125rem;
+	-webkit-text-stroke: 0.1875rem #ebeff3;
  font-family: arial; color: #e01818;
 }
 header .subtitulo{
-	font-size: 42px;
-	font-weight: 300;
-	margin-bottom: 32px;
+	font-size: 2.625rem;
+	font-weight: 18.75rem;
+	margin-bottom: 2rem;
+}
+.idiomas{
+	background-color: #092327;
+	
+	text-align: center;
+	width: 100%;
+	font-size: 0.5rem;
+	padding: 0.625rem;
+}
+.menus{
+	background-color: #092327;
+	text-align: center;
+
+
+}
+.titulo_nosotros{
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	padding: 0.3125rem;
+}
+.titulo_contacto{
+	font-size: 1.5625rem;
+	text-align: center;
+	font-weight: bold;
+	color: #f7f7f7;
+	padding: 0.3125rem;
+}
+.texto_contacto{
+	font-size: 1.25rem;
+	text-align: center;
+	color: #f7f7f7;
+	padding: 0.3125rem;
+
+}
+.menu{
+	
+	padding: 0;
+	width: 90%;
+	max-width: 62.5rem;
+	margin: auto;
 }
 
 .menu{
@@ -45,14 +91,14 @@ header .subtitulo{
 	padding: 0;
 	background: #092327;
 	width: 90%;
-	max-width: 1000px;
+	max-width: 62.5rem;
 	margin: auto;
 }
 
 .menu li a{
 	text-decoration: none;
 	color: white;
-	padding: 20px;
+	padding: 1.25rem;
 	display: block;
 }
 
@@ -65,31 +111,74 @@ header .subtitulo{
 	background: #ef8354;
 }
 .menu1{
-	list-style: none;
 	padding: 0;
-	background: #fff;
+	background: rgb(155, 25, 194);
 	width: 90%;
-	max-width: 1000px;
+	max-width: 21.875rem;
 	margin: auto;
 }
 
 .menu1 li a{
 	text-decoration: none;
 	color: white;
-	padding: 20px;
-	display: block;
+	display: inline-block;
+}
+.referencias{
+	width: 100%;
+	padding: 1.25rem;
+	background-color: #ffffff;
+	display: inline-block;
 }
 
 .menu1 li{
-	display: inline-block;
+	display: inline-table;
 	text-align: center;
 }
+.referencia1{
+	width: 20%;
+	height: 1.875rem;
+	float: left;
+	text-align: center;
 
+}
+.referencia2{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia3{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia4{
+	width: 20%;
+	height: 1.875rem;
+	text-align: center;
+	float: left;
+
+}
+.referencia5{
+	width: 20%;
+	text-align: center;
+	height: 1.875rem;
+	float: right;
+}
+.derechos_reservados{
+	background-color: #f7f7f7;
+	width: 100%;
+	text-align: center;
+	height: 3.75rem;
+}
 .menu1 li img{
-	width:100;
-	height: 40px;
-	margin-left: 5px;
-	margin-right: 5px;
+	width:2.5rem;
+	height: 1.875rem;
+	margin-left: 0.3125rem;
+	margin-right: 0.3125rem;
 
 }
 .sesgoabajo{
@@ -110,41 +199,41 @@ header .subtitulo{
 	border-style: solid;
 	border-color: #fff transparent transparent transparent;
 }
-.acerca-de{
-	background-color: #68B2DF;
 
-}
-.contenedor{
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
-	overflow: hidden;
-	padding: 52px 0;
-}
+
+
 .sobre-nosotros{
 	text-align: center;
-	font-size: 56px;
-	margin-bottom: 10px;
-	font-weight: 600;
+	font-size: 3.5rem;
+	margin-bottom: 0.625rem;
+	font-weight: 37.5rem;
 }
 .parrafo{
-margin-bottom: 13px;
-font-weight: 300;
-font-size: 1.2em;
+margin-bottom: 0.8125rem;
+font-weight: 18.75rem;
+font-size: 1.2rem;
 text-align: justify;
-line-height: 35px;
+line-height: 2.1875rem;
 color: rgb(29, 6, 6)
 }
+.titulo_de_estrenos{
+	margin-bottom: 0.8125rem;
+	font-weight: 18.75rem;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2.1875rem;
+	color: rgb(29, 6, 6)
+	}
 .galeria{
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     overflow:hidden;
     display:flex;
     position: relative;   
 }
 .imagenes{
     width: 20%;
-    height: 500px;
+    height: 31.25rem;
     overflow:hidden;
     position: relative;
 }
@@ -174,8 +263,8 @@ color: rgb(29, 6, 6)
 	position: relative;
 	display: block;
 	top: 46%;
-	width: 40px;
-	height: 5px;
+	width: 2.5rem;
+	height: 0.3125rem;
 	background: #fff;
 	margin:auto;
 }
@@ -199,59 +288,90 @@ color: rgb(29, 6, 6)
 	position: relative;
 	display: block;
 	bottom: 46%;
-	width: 40px;
-	height: 5px;
+	width: 2.5rem;
+	height: 0.3125rem;
 	background: #fff;
 	margin:auto;
 }
 .fotopelis2 img{
-	width: 200px;
-	height: 200px;
+	width: 12.5rem;
+	height: 12.5rem;
 	float:left;
-	margin-right: 10px;
+	margin-right: 0.625rem;
 	border-radius: 30%;
 }
 .boton{
 	display: inline-block;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background-color: #34495e;
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 18px;
-  padding: 10px;
-  width: 150px;
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  width: 9.375rem;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 0.3125rem;
 
 }
+.contenedor{
+	width: 90%;
+	max-width: 62.5rem;
+	margin: auto;
+	overflow: hidden;
+	padding: 3.25rem 0;
+}
 
-.fotopelis img{
-	width: 200px;
-	height: 200px;
-	float:left;
-	margin-right: 10px;
+.estreno1 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
 	border-radius: 30%;
 }
-.fotopelis {
-	width: 25%;
-	float:left;
-}
+.estreno1 {
+	width: 33.33%;
+	float:left;	
+	text-align: center;
 
+}
+.estreno2 {
+	width: 33.33%;
+	float:left;	
+	text-align: center;
+
+}
+.estreno2 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
+.estreno3 {
+	text-align: center;
+	width: 33.33%;;
+	float:left;
+
+}
+.estreno3 img{
+	width: 12.5rem;
+	height: 12.5rem;
+	margin-right: 0.625rem;
+	border-radius: 30%;
+}
 
 
 .ir-arriba
 {
 	display: inline-block;
-	padding: 20px;
+	padding: 1.25rem;
 	background: #024959;
-	font-size:20px;
+	font-size:1.25rem;
 	color:#fff;
 	cursor:pointer;
 	position: fixed;
-	bottom:20px;
-	right:20px;
+	bottom:1.25rem;
+	right:1.25rem;
 
 }
 
@@ -263,113 +383,43 @@ color: rgb(29, 6, 6)
 	color: #00a1ff;
 }
 .en{
-	font-size: 15px;
-	-webkit-text-stroke: 0.2px #000000;
+	font-size: 0.9375rem;
+	-webkit-text-stroke: 0.0125rem #000000;
  font-family: arial; color: #ffffff;
 }
-.es{font-size: 15px;
-	-webkit-text-stroke: 0.2px #000000;
+.es{
+	font-size: 0.9375rem;
+	-webkit-text-stroke: 0.0125rem #000000;
  font-family: arial; color: #ffffff;
 }
-/*
-.check{
-	position: relative;
-	width:50px;
-}
-.check::before{
-	content: "";
-	position: absolute;
-	width: 50px;
-	height: 25px;
-	background: #333;
-	border-radius: 25px;
-}
-.check:after{
-	content: "";
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	background: #fff;
-	border-radius: 25px;
-	transition: 0.25s;
-	border: 2px solid #333;
-	box-sizing: border-box;
 
-}
-.check:checked::after{
-	left: 25px;
-	border: 2px solid #00a1ff;
-}
-.check:checked:before{
-background: #00a1ff;
-}
-*/
-//RESPONSIVE
-@media screen and (max-width: 480px){
-	header .titulo{
-		font-size: 36px;
-		-webkit-text-stroke: 1px #ebeff3;
-	    font-family: arial; color: #e01818;
-	}
-	header .textos{
-		margin-top: 152px;
-		-webkit-text-stroke: 1px #EDDDC3;
-	 font-family: arial; color: #1836e0;
-	 font-size: 22px;
+@media screen and (max-width: 480px) {
+
+    html {
+		font-size: 12px;
+    }
+
+	.estreno1 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
 	
-	 
 	}
-	.menu li a{
-		text-decoration: none;
-		color: white;
-		padding: 15px;
-		display: block;
+	.estreno2 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	
 	}
-	.fotopelis img{
-		width: 100px;
-		height: 100px;
-		float:none;
-		margin-right: 2px;
-		margin-left: 40px;
-		border-radius: 20%;
+
+	.estreno3 {
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	
 	}
-	.parrafo{
-		margin-bottom: 13px;
-		font-weight: 300;
-		font-size: 1.2em;
-		text-align: end;
-		line-height: 15px;
-		color: rgb(29, 6, 6)
-		}
-		.boton{
-			display: inline-block;
-		  border-radius: 4px;
-		  background-color: #34495e;
-		  border: none;
-		  color: #FFFFFF;
-		  text-align: center;
-		  font-size: 12px;
-		  padding: 5px;
-		  width: 80px;
-		  transition: all 0.5s;
-		  cursor: pointer;
-		  margin: 5px;
-		  margin-left: 50px;
-		
-		}
-		.fotopelis img{
-			width: 200px;
-			height: 200px;
-			float:none;
-			margin-right: 10px;
-			border-radius: 30%;
-		}
-	.sobre-nosotros{
-			text-align: center;
-			font-size: 35px;
-			margin-bottom: 10px;
-			font-weight: 600;
-		}
-		
-		
+	header .titulo{
+		font-size: 45px;
+	}
+
 }
